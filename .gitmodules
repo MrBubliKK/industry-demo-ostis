@@ -14,3 +14,6 @@
 [submodule "knowledge-base/s88-ostis"]
 	path = knowledge-base/s88-ostis
 	url = https://github.com/savushkin-r-d/s88-ostis
+[submodule "knowledge-base/sc-web"]
+	path = knowledge-base/sc-web
+	url = https://github.com/ostis-ai/sc-web.git
