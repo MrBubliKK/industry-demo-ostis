@@ -1,0 +1,9 @@
+action_of_searching_for_current_state_of_specified_object
+<- sc_node_class;
+<= nrel_inclusion:
+	information_action;
+=> nrel_main_idtf:
+	[действие. Найти текущее состояние заданного объекта.]
+		(*<- lang_ru;;*);
+	[action. Find current state of specified object.]
+		(*<- lang_en;;*);;

@@ -1,0 +1,5 @@
+kilogram <- sc_node_class;;
+liter <- sc_node_class;;
+last_completed_shift <- sc_node_class;;
+packaged_cottage_cheese <- sc_node_class;;
+

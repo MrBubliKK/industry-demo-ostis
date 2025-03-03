@@ -1,0 +1,9 @@
+action_find_subclasses_in_the_structure
+<- sc_node_class;
+<= nrel_inclusion:
+	information_action;
+=> nrel_main_idtf:
+	[Действие. Найти подклассы заданного класса, входящие в указанную структуру]
+		(* <- lang_ru;; *);
+	[Action. Find subclasses of the given class, included in the specified structure]
+		(* <- lang_en;; *);;

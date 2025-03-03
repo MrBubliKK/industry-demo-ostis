@@ -1,0 +1,9 @@
+action_of_searching_time_limits_specified_temporary_nature
+<- sc_node_class;
+<= nrel_inclusion:
+    information_action;
+=> nrel_main_idtf:
+	[Действие. Найти временные границы указанной временной сущности.]
+		(*<- lang_ru;;*);
+	[Action. Find the time boundaries of the specified time entity.]
+		(*<- lang_en;; *);;

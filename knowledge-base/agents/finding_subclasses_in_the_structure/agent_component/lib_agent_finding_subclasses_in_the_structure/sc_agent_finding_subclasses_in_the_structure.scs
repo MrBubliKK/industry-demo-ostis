@@ -1,0 +1,55 @@
+sc_agent_finding_subclasses_in_the_structure
+=> nrel_main_idtf:
+	[sc-агент поиска подклассов заданного класса, входящих в указанную структуру] (* <- lang_ru;; *);
+	[sc-agent for finding subclasses of the given class, included in the specified structure] (* <- lang_en;; *);
+	
+<- abstract_sc_agent;
+
+=> nrel_sc_agent_action_class:
+    action_find_subclasses_in_the_structure;
+
+=> nrel_primary_initiation_condition: 
+	(sc_event_after_generate_outgoing_arc => action_initiated);
+	
+=> nrel_initiation_condition_and_result: 
+	(..condition => ..result);
+	
+<= nrel_sc_agent_key_sc_elements: 
+	{
+	action_initiated;
+	action;
+	action_find_subclasses_in_the_structure
+	};
+	
+=> nrel_inclusion: 
+	.platform_independent_implementation_of_sc_agent_finding_subclasses_in_the_structure
+	(*
+		<- platform_independent_abstract_sc_agent;;
+		<= nrel_sc_agent_program: 
+		{
+			agent_finding_subclasses_in_the_structure;
+        		proc_equivalent_elements
+		};;
+		
+		-> sc_agent_finding_subclasses_in_the_structure_scp 
+		(* <- active_sc_agent;; *);;
+	*);;
+
+..condition
+= [*
+	action_find_subclasses_in_the_structure _-> .._action;;
+	action_initiated _-> .._action;;
+	action _-> .._action;;
+	.._action _-> rrel_1:: .._parameter1;;
+	.._action _-> rrel_2:: .._parameter2;;
+*];;
+
+..result
+= [*
+	action_find_subclasses_in_the_structure _-> .._action;;
+	action_finished _-> .._action;;
+	action _-> .._action;;
+	.._action _=> nrel_result:: .._answer;;
+	.._action _-> rrel_1:: .._parameter1;;
+	.._action _-> rrel_2:: .._parameter2;;
+*];;

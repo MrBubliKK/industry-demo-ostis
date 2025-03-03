@@ -1,0 +1,9 @@
+action_of_finding_results_of_process
+<- sc_node_class;
+<= nrel_inclusion:
+	information_action;
+=> nrel_main_idtf:
+	[действие. найти результаты заданного процесса]
+		(*<- lang_ru;;*);
+	[Action. Find the result of process]
+	(*<- lang_en;;*);;

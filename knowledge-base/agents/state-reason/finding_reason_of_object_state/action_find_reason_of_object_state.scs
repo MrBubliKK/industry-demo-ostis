@@ -1,0 +1,9 @@
+action_find_reason_of_object_state
+<- sc_node_class;
+<= nrel_inclusion:
+	information_action;
+=> nrel_main_idtf:
+	[Действие. Найти причины текущего состояния заданного объекта.]
+		(* <- lang_ru;; *);
+	[Action: Find the reasons for the current state of the given object.]
+		(* <- lang_en;; *);;
