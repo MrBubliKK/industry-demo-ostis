@@ -38,7 +38,7 @@ Docker simplifies setup and provides a consistent environment.
 2.  **Clone repository:**
 
     ```sh
-    git clone https://github.com/ostis-apps/ostis-example-app.git
+    git clone https://github.com/savushkin-r-d/industry-demo-ostis.git
     cd ostis-example-app
     git checkout 0.10.0
     git submodule update --init --recursive
@@ -148,7 +148,7 @@ Steps for installing and running the application directly on your system.
 5.  **Clone repository:**
 
     ```sh
-    git clone https://github.com/ostis-apps/ostis-example-app.git
+    git clone https://github.com/savushkin-r-d/industry-demo-ostis.git
     cd ostis-example-app
     git checkout 0.10.0
     git submodule update --init --recursive
