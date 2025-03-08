@@ -39,7 +39,7 @@ Docker simplifies setup and provides a consistent environment.
 
     ```sh
     git clone https://github.com/savushkin-r-d/industry-demo-ostis.git
-    cd ostis-example-app
+    cd industry-demo-ostis
     git checkout 0.10.0
     git submodule update --init --recursive
     ```
