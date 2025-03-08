@@ -149,7 +149,7 @@ Steps for installing and running the application directly on your system.
 
     ```sh
     git clone https://github.com/savushkin-r-d/industry-demo-ostis.git
-    cd ostis-example-app
+    cd industry-demo-ostis
     git checkout 0.10.0
     git submodule update --init --recursive
     ```
