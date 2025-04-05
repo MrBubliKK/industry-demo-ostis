@@ -2,7 +2,7 @@ from conan import ConanFile, tools
 from conan.tools.cmake import cmake_layout, CMakeDeps, CMakeToolchain, CMake
 
 
-class ostis_example_appRecipe(ConanFile):
+class OstisExampleAppRecipe(ConanFile):
     settings = "os", "compiler", "build_type", "arch"
 
     @property
